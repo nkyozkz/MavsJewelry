@@ -1,0 +1,1 @@
+//Archivo para futura implementacion de funciones en JS
