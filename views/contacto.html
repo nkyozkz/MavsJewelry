@@ -28,18 +28,18 @@
             <h2>Formulario de Contacto</h2>
 
             <form action="#" method="post"> <!-- Action pendiente mientras no haya Javascript-->
-                <label>Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+                <label for="nombretxt">Nombre:</label><br>
+                <input type="text" id="nombretxt" name="nombretxt" required placeholder="Ingresa tu nombre">
 
                 <br><br>
 
-                <label>Correo Electrónico:</label><br>
-                <input type="email" id="correo" name="correo" required placeholder="Ingresa tu correo electronico">
+                <label for="mailtxt">Correo Electrónico:</label><br>
+                <input type="email" id="mailtxt" name="mailtxt" required placeholder="Ingresa tu correo electronico">
 
                 <br><br>
 
-                <label>Tipo de Consulta:</label><br>
-                <select name="consulta">
+                <label for="consultaddl">Tipo de Consulta:</label><br>
+                <select id="consultaddl" name="consultaddl">
                     <option>Información de productos</option>
                     <option>Cotización</option>
                     <option>Promociones</option>
@@ -48,8 +48,8 @@
 
                     <br><br>
 
-                <label>Mensaje:</label><br>
-                <textarea id="txt" name="txt" rows="5" cols="40"></textarea>
+                <label for="mensajetxt">Mensaje:</label><br>
+                <textarea id="mensajetxt" name="mensajetxt" rows="5" cols="40"></textarea>
 
                 <br><br>
 
