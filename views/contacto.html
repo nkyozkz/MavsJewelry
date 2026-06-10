@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="/assets/img/logo.png" alt="Logo Mavs Jewerly" width="100">
+        <div>Mavs Jewerly</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/views/productos.html">Productos</a></li>
+                <li><a href="/views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <div> <!-- Contenedor general-->
+            <h1>Contacto</h1>
+            <p>Si tienes alguna consulta o idea, no dudes en ponerte en contacto con nosotros.</p>
+
+            <h2>Formulario de Contacto</h2>
+
+            <form action="#" method="post"> <!-- Action pendiente mientras no haya Javascript-->
+                <label>Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+
+                <br><br>
+
+                <label>Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required placeholder="Ingresa tu correo electronico">
+
+                <br><br>
+
+                <label>Tipo de Consulta:</label><br>
+                <select name="consulta">
+                    <option>Información de productos</option>
+                    <option>Cotización</option>
+                    <option>Promociones</option>
+                    <option>Otro</option>
+                </select>
+
+                    <br><br>
+
+                <label>Mensaje:</label><br>
+                <textarea id="txt" name="txt" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </form><br><br>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <div> <!-- contenedor principal para modulos del footer-->
+            <div>
+                <img src="/assets/img/logo.png" alt="Logo" width="70">
+            </div>
+            <div>
+                <h3>CONTACTO</h3>
+                <ul>
+                    <li><img src="/assets/img/whatsapp_icon.svg" alt="WhatsApp"> +56 9 8923 4239</li>
+                    <li>mavenegas.s.mv@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>NUESTRAS REDES</h3>
+                <ul>
+                    <li><a href="https://instagram.com/mavs_jewerly"><img src="/assets/img/instagram_icon.svg" alt="Instagram"></a></li>
+                    <li><a href="https://tiktok.com/@mavs_jewerly"><img src="/assets/img/tiktok_icon.svg" alt="Tiktok"></a></li>
+                    <li><a href="#"><img src="/assets/img/facebook_icon.svg" alt="Facebook"></a></li> <!-- Consultar al clente, no agrego direccion especifica rrss-->
+                </ul>
+            </div>
+            <div>
+                <p>© Mavs Jewelry. Todos los derechos reservados. </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

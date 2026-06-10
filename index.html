@@ -8,18 +8,28 @@
 
 <body>
     <header>
-        <img src="assets/img/logo.png" alt="Logo Mavs Jewerly" width="250">
+        <img src="assets/img/logo.png" alt="Logo Mavs Jewerly" width="100">
         <h1>Mavs Jewerly</h1>
         <nav>
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="views/productos.html">Productos</a></li>
+                <li><a href="views/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
+    <hr> <!--Separacion temporal mientras no haya css-->
+
     <main>
+        
+        <h2>¿Quiénes Somos?</h2>
+        <p>
+            Mavs Jewelry es un emprendimiento que nació de la pasión por transformar la plata y las piedras semipreciosas en joyas que transmiten energía, belleza y significado. 
+            <br><br>
+            Cada creación es elaborada a mano con dedicación y cuidado.
+        </p>
+
         <h2>Misión</h2>
         <p>
             Mi misión es transformar la plata y las piedras semipreciosas en joyas únicas que reflejen resiliencia y misticismo y agregar un atisbo de elegancia a la mostacilla con cristales y alambrismo.
@@ -29,12 +39,6 @@
         <p>
             Convertir a Mavs Jewerly en un referente de joyas artesanales en plata, piedras semipreciosas, mostacilla y alambrismo, reconocidas por transmitir elegancia, energía y significado en cada creación.
         </p>
-
-        <h2>¿Quiénes Somos?</h2>
-        <p>
-            Somos un emprendimiento que nació de la pasión por transformar la plata y las piedras semipreciosas en joyas que transmiten energía, belleza y significado. Cada creación es elaborada a mano con dedicación y cuidado.
-        </p>
-
         
 
     <h2>Nuestra Historia</h2>
@@ -54,8 +58,8 @@
 
 
 
-    <h2>Nuestros Productos</h2>
-
+    <h2>Acerca de nuestras joyas</h2>
+    <p>Presentamos una amplia variedad de joyas dentro de nuestro catalogo, estre ellas:</p>
     <ul>
         <li>Joyas de plata nacional con piedras semipreciosas.</li>
         <li>Joyas con cristales Swarovski.</li>
@@ -64,31 +68,17 @@
         <li>Joyas realizadas con técnica de alambrismo.</li>
     </ul>
 
-    <h3>Galería de Productos</h3>
+    <h2>Galería de Productos</h2>
     <div>
         <img src="assets/img/Producto1.jpg" alt="Producto 1" width="200">
         <img src="assets/img/Producto2.jpg" alt="Producto 2" width="200">
         <img src="assets/img/Producto3.jpg" alt="Producto 3" width="200">
         <img src="assets/img/Producto4.jpg" alt="Producto 4" width="200">
-
-        <br><br>
-
-        <img src="assets/img/Producto5.jpg" alt="Producto 5" width="200">
-        <img src="assets/img/Producto6.jpg" alt="Producto 6" width="200">
-        <img src="assets/img/Producto7.jpg" alt="Producto 7" width="200">
-        <img src="assets/img/Producto8.jpg" alt="Producto 8" width="200">
-
-        <br><br>
-
-        <img src="assets/img/Producto9.jpg" alt="Producto 9" width="200">
-        <img src="assets/img/Producto10.jpg" alt="Producto 10" width="200">
-        <img src="assets/img/Producto11.jpg" alt="Producto 11" width="200">
-        <img src="assets/img/Producto12.jpg" alt="Producto 12" width="200">
+        <br>
+        <button><a href="/views/productos.html">Ver todos los productos</a></button>
     </div>
 
-    
     <h2>Ofertas</h2>
-    <p>Productos en oferta</p>
     <Div>  
         <img src="assets/img/Producto1.jpg" alt="Producto 9" width="200">
         <img src="assets/img/Producto4.jpg" alt="Producto 10" width="200">
@@ -104,70 +94,34 @@
         "Excelente atención y productos de gran calidad."
         <strong>- Cliente satisfecho.</strong>
     </p>
-    
-    <p>Redes Sociales</p>
-    <ul>
-        <li>
-            <a href="https://instagram.com/mavs_jewerly">
-                Instagram @mavs_jewerly
-            </a>
-        </li>
-        <li>
-            <a href="https://tiktok.com/@mavs_jewerly">
-                TikTok @mavs_jewerly
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                Facebook MV Jewelry
-            </a>
-        </li>
-    </ul>
-    
-    <h2>Contacto</h2>
-    <p>
-        <strong>WhatsApp:</strong> +56 9 8923 4239
-    </p>
-    <p>
-        <strong>Mail:</strong> mavenegas.s.mv@gmail.com
-    </p>
-
-    
-    <h2>Formulario de Contacto</h2>
-
-    <form>
-        <label>Nombre:</label><br>
-        <input type="text" name="nombre" required>
-
-        <br><br>
-
-        <label>Correo Electrónico:</label><br>
-        <input type="email" name="correo" required>
-
-        <br><br>
-
-        <label>Tipo de Consulta:</label><br>
-        <select name="consulta">
-            <option>Información de productos</option>
-            <option>Cotización</option>
-            <option>Promociones</option>
-            <option>Otro</option>
-        </select>
-
-        <br><br>
-
-        <label>Mensaje:</label><br>
-        <textarea name="mensaje" rows="5" cols="40"></textarea>
-
-        <br><br>
-
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpiar">
-    </form><br>
     </main>
 
+    <hr> <!--Separacion temporal mientras no haya css-->
+
     <footer>
-            <img src="assets/img/logo.png" alt="Logo pequeño" width="120">
+        <div> <!-- contenedor principal para modulos del footer-->
+            <div>
+                <img src="assets/img/logo.png" alt="Logo pequeño" width="70">
+            </div>
+            <div>
+                <h3>CONTACTO</h3>
+                <ul>
+                    <li><img src="/assets/img/whatsapp_icon.svg" alt="WhatsApp"> +56 9 8923 4239</li>
+                    <li>mavenegas.s.mv@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>NUESTRAS REDES</h3>
+                <ul>
+                    <li><a href="https://instagram.com/mavs_jewerly"><img src="/assets/img/instagram_icon.svg" alt="Instagram"></a></li>
+                    <li><a href="https://tiktok.com/@mavs_jewerly"><img src="/assets/img/tiktok_icon.svg" alt="Tiktok"></a></li>
+                    <li><a href="#"><img src="/assets/img/facebook_icon.svg" alt="Facebook"></a></li> <!-- Consultar al clente, no agrego direccion especifica rrss-->
+                </ul>
+            </div>
+            <div>
+                <p>© Mavs Jewelry. Todos los derechos reservados. </p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
