@@ -222,7 +222,60 @@ body{
     margin: 0;
 }
 /* Fin view Productos*/
+/* Comienzo contacto*/
+.form-contacto{
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+}
+
+.form-contacto label{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-contacto input,
+.form-contacto select,
+.form-contacto textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-contacto textarea{
+resize: vertical;
+}
+
+.btn-formulario-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-formulario{
+    display: inline-block;
+    background-color: #1c1c1c;
+    color: #f8f4ef;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-formulario:hover{
+    background-color: #f4aed4;
+    color: #1c1c1c;
+}
+/* Fin Contacto*/
 /* Comienzo footer*/
+
 .footer{
     background-color: #1c1c1c;
     color: #f8f4ef;

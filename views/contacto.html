@@ -21,23 +21,24 @@
         </nav>
     </header>
 
-    <main>
-        <div> <!-- Contenedor general-->
+    <main class="main-container">
+        <section class="seccion-texto card-container">
             <h1>Contacto</h1>
-            <p>Si tienes alguna consulta o idea, no dudes en ponerte en contacto con nosotros.</p>
+            <p>
+                Si tienes alguna consulta o idea, no dudes en ponerte en contacto con nosotros.
+            </p>
 
+        </section>
+
+        <section class="form-contacto card-container">
             <h2>Formulario de Contacto</h2>
 
-            <form action="#" method="post"> <!-- Action pendiente mientras no haya Javascript-->
+            <form action="#" method="post" class="form-contacto"> <!-- Action pendiente mientras no haya Javascript-->
                 <label for="nombretxt">Nombre:</label><br>
                 <input type="text" id="nombretxt" name="nombretxt" required placeholder="Ingresa tu nombre">
 
-                <br><br>
-
                 <label for="mailtxt">Correo Electrónico:</label><br>
                 <input type="email" id="mailtxt" name="mailtxt" required placeholder="Ingresa tu correo electronico">
-
-                <br><br>
 
                 <label for="consultaddl">Tipo de Consulta:</label><br>
                 <select id="consultaddl" name="consultaddl">
@@ -47,17 +48,15 @@
                     <option>Otro</option>
                 </select>
 
-                    <br><br>
-
                 <label for="mensajetxt">Mensaje:</label><br>
-                <textarea id="mensajetxt" name="mensajetxt" rows="5" cols="40"></textarea>
+                <textarea id="mensajetxt" name="mensajetxt" rows="6" placeholder="Escribe aqui tu mensaje"></textarea>
 
-                <br><br>
-
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </form><br><br>
-        </div>
+                <div class="btn-formulario-container">
+                    <input type="reset" value="Limpiar" class="btn-formulario">
+                    <input type="submit" value="Enviar" class="btn-formulario">
+                </div>
+            </form>
+        </section>
     </main>
 
     <footer class="footer">
