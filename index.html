@@ -1,126 +1,149 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mavs Jewerly</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-    <header>
-        <img src="assets/img/logo.png" alt="Logo Mavs Jewerly" width="100">
-        <h1>Mavs Jewerly</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="views/productos.html">Productos</a></li>
-                <li><a href="views/contacto.html">Contacto</a></li>
+    <header class="navbar">
+        <a href="index.html" class="nav-logo-link">
+            <img src="assets/img/logo.png" alt="Logo MavsJewerly" width="100" class="nav-logo">
+        </a>
+        <h1 class="nav-titulo">Mavs Jewerly</h1>
+        <nav class="nav-container">
+            <ul class="nav-lista">
+                <li class="nav-item"><a href="index.html">Inicio</a></li>
+                <li class="nav-item"><a href="views/productos.html">Productos</a></li>
+                <li class="nav-item"><a href="views/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <hr> <!--Separacion temporal mientras no haya css-->
-
-    <main>
+    <main class="main-container">
+        <section class="seccion-galeria">
+            <h2>Ofertas</h2>
+            <div class="galeria-home-container">  
+                <img src="assets/img/Producto1.jpg" alt="Producto 9" width="200">
+                <img src="assets/img/Producto4.jpg" alt="Producto 10" width="200">
+                <img src="assets/img/Producto5.jpg" alt="Producto 11" width="200">
+                <img src="assets/img/Producto9.jpg" alt="Producto 12" width="200">
+            </div>
+        </section>
         
-        <h2>¿Quiénes Somos?</h2>
-        <p>
-            Mavs Jewelry es un emprendimiento que nació de la pasión por transformar la plata y las piedras semipreciosas en joyas que transmiten energía, belleza y significado. 
-            <br><br>
-            Cada creación es elaborada a mano con dedicación y cuidado.
-        </p>
+        <section class="seccion-galeria">
+            <h2>Galería de Productos</h2>
+            <div class="galeria-home-container">
+                <img src="assets/img/Producto1.jpg" alt="Producto 1" width="200">
+                <img src="assets/img/Producto2.jpg" alt="Producto 2" width="200">
+                <img src="assets/img/Producto3.jpg" alt="Producto 3" width="200">
+                <img src="assets/img/Producto4.jpg" alt="Producto 4" width="200">
+            </div>
+            <div class="btn-container">
+                <a href="views/productos.html" class="btn-home-galeria">Ver todos los productos</a>
+            </div>
+        </section>
 
-        <h2>Misión</h2>
-        <p>
-            Mi misión es transformar la plata y las piedras semipreciosas en joyas únicas que reflejen resiliencia y misticismo y agregar un atisbo de elegancia a la mostacilla con cristales y alambrismo.
-        </p>
+        <section class="seccion-texto">
+            <h2>¿Quiénes Somos?</h2>
+            <p>
+                Mavs Jewelry es un emprendimiento que nació de la pasión por transformar la plata y las piedras semipreciosas en joyas que transmiten energía, belleza y significado. <br><br>Cada creación es elaborada a mano con dedicación y cuidado.
+            </p>
+        </section>
 
-        <h2>Visión</h2>
-        <p>
-            Convertir a Mavs Jewerly en un referente de joyas artesanales en plata, piedras semipreciosas, mostacilla y alambrismo, reconocidas por transmitir elegancia, energía y significado en cada creación.
-        </p>
+        <section class="seccion-texto">
+            <h2>Acerca de nuestras joyas</h2>
+            <p>
+                Dentro de nuestro catalogo, presentamos una amplia variedad de joyas, estre ellas:
+            </p>
+            <ul class="lista-joyas">
+                <li>Joyas de plata nacional con piedras semipreciosas.</li>
+                <li>Joyas con cristales Swarovski.</li>
+                <li>Joyas tejidas con mostacilla Miyuki.</li>
+                <li>Joyas con cristales checos premium.</li>
+                <li>Joyas realizadas con técnica de alambrismo.</li>
+            </ul>
+        </section>
+
+        <section class="seccion-texto">
+            <h2>Misión</h2>
+            <p>
+                Mi misión es transformar la plata y las piedras semipreciosas en joyas únicas que reflejen resiliencia y misticismo y agregar un atisbo de elegancia a la mostacilla con cristales y alambrismo.
+            </p>
+        </section>
+
+        <section class="seccion-texto">
+            <h2>Visión</h2>
+            <p>
+                Convertir a Mavs Jewerly en un referente de joyas artesanales en plata, piedras semipreciosas, mostacilla y alambrismo, reconocidas por transmitir elegancia, energía y significado en cada creación.
+            </p>
+        </section>
         
+        <section class="seccion-texto">
+            <h2>Nuestra Historia</h2>
+            <p>
+                Mi nombre es <strong>María Angélica</strong> y soy orfebre. Este emprendimiento nació desde la resiliencia y el deseo de transformar las dificultades en inspiración. A través de la plata, las piedras semipreciosas, la mostacilla calibrada y el alambrismo encontré un camino para expresar fuerza, elegancia y misticismo.
+            </p>
 
-    <h2>Nuestra Historia</h2>
+            <p>
+                Cada joya representa mucho más que un accesorio; busca transmitir significado, autenticidad y conexión personal. Mi objetivo es crear piezas artesanales que acompañen a las personas y reflejen su esencia.
+            </p>
+        </section>
 
-    <p>
-        Mi nombre es <strong>María Angélica</strong> y soy orfebre. Este emprendimiento
-        nació desde la resiliencia y el deseo de transformar las dificultades en inspiración.
-        A través de la plata, las piedras semipreciosas, la mostacilla calibrada y el
-        alambrismo encontré un camino para expresar fuerza, elegancia y misticismo.
-    </p>
+        <section class="seccion-texto">
+            <h2>Concursos</h2>
+            <p>
+                Actualmente no hay concursos activos. Puedes seguir nuestras redes sociales para estar al tanto de las próximas oportunidades.
+            </p>
+        </section>
 
-    <p>
-        Cada joya representa mucho más que un accesorio; busca transmitir significado,
-        autenticidad y conexión personal. Mi objetivo es crear piezas artesanales que
-        acompañen a las personas y reflejen su esencia.
-    </p>
+        <section class="seccion-testimonio">
+            <h2>Testimonios</h2>
+            <div class="testimonio-container">
+                <div class="testimonio-card">
+                    "Excelente atención y productos de gran calidad."
+                    <strong>- Cliente satisfecho.</strong>
+                </div>
 
+                <div class="testimonio-card">
+                    "El envio fue bastante rapido"
+                    <strong>- Cliente satisfecho.</strong>
+                </div>
 
-
-    <h2>Acerca de nuestras joyas</h2>
-    <p>Presentamos una amplia variedad de joyas dentro de nuestro catalogo, estre ellas:</p>
-    <ul>
-        <li>Joyas de plata nacional con piedras semipreciosas.</li>
-        <li>Joyas con cristales Swarovski.</li>
-        <li>Joyas tejidas con mostacilla Miyuki.</li>
-        <li>Joyas con cristales checos premium.</li>
-        <li>Joyas realizadas con técnica de alambrismo.</li>
-    </ul>
-
-    <h2>Galería de Productos</h2>
-    <div>
-        <img src="assets/img/Producto1.jpg" alt="Producto 1" width="200">
-        <img src="assets/img/Producto2.jpg" alt="Producto 2" width="200">
-        <img src="assets/img/Producto3.jpg" alt="Producto 3" width="200">
-        <img src="assets/img/Producto4.jpg" alt="Producto 4" width="200">
-        <br>
-        <button><a href="/views/productos.html">Ver todos los productos</a></button>
-    </div>
-
-    <h2>Ofertas</h2>
-    <Div>  
-        <img src="assets/img/Producto1.jpg" alt="Producto 9" width="200">
-        <img src="assets/img/Producto4.jpg" alt="Producto 10" width="200">
-        <img src="assets/img/Producto5.jpg" alt="Producto 11" width="200">
-        <img src="assets/img/Producto9.jpg" alt="Producto 12" width="200">
-    </Div>
-
-    <h2>Concursos</h2>
-    <p>Actualmente no hay concursos activos. Puedes seguir nuestras redes sociales para estar al tanto de las próximas oportunidades.</p>
-
-    <h2>Testimonios</h2>
-    <p>
-        "Excelente atención y productos de gran calidad."
-        <strong>- Cliente satisfecho.</strong>
-    </p>
+                <div class="testimonio-card">
+                    "Me encanto, era justo lo que buscaba"
+                    <strong>- Cliente satisfecho. </strong>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <hr> <!--Separacion temporal mientras no haya css-->
-
-    <footer>
-        <div> <!-- contenedor principal para modulos del footer-->
-            <div>
-                <img src="assets/img/logo.png" alt="Logo pequeño" width="70">
+    <footer class="footer">
+        <div class="footer-sup">
+            <div class="footer-seccion">
+                <img src="assets/img/logo.png" alt="Logo footer" width="70" class="footer-logo">
             </div>
-            <div>
-                <h3>CONTACTO</h3>
-                <ul>
-                    <li><img src="/assets/img/whatsapp_icon.svg" alt="WhatsApp"> +56 9 8923 4239</li>
+
+            <div class="footer-seccion">
+                <h3 class="footer-titulo">CONTACTO</h3>
+                <ul class="footer-lista">
+                    <li><img src="assets/img/whatsapp_icon.svg" alt="WhatsApp"> +56 9 8923 4239</li>
                     <li>mavenegas.s.mv@gmail.com</li>
                 </ul>
             </div>
-            <div>
-                <h3>NUESTRAS REDES</h3>
-                <ul>
-                    <li><a href="https://instagram.com/mavs_jewerly"><img src="/assets/img/instagram_icon.svg" alt="Instagram"></a></li>
-                    <li><a href="https://tiktok.com/@mavs_jewerly"><img src="/assets/img/tiktok_icon.svg" alt="Tiktok"></a></li>
-                    <li><a href="#"><img src="/assets/img/facebook_icon.svg" alt="Facebook"></a></li> <!-- Consultar al clente, no agrego direccion especifica rrss-->
+
+            <div class="footer-seccion">
+                <h3 class="footer-titulo">NUESTRAS REDES</h3>
+                <ul class="footer-lista lista-redes">
+                    <li><a href="https://instagram.com/mavs_jewerly"><img src="assets/img/instagram_icon.svg" alt="Instagram"></a></li>
+                    <li><a href="https://tiktok.com/@mavs_jewerly"><img src="assets/img/tiktok_icon.svg" alt="Tiktok"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61570840502174&mibextid=ZbWKwL"><img src="assets/img/facebook_icon.svg" alt="Facebook"></a></li>
                 </ul>
             </div>
-            <div>
-                <p>© Mavs Jewelry. Todos los derechos reservados. </p>
-            </div>
+        </div>
+        <div class="footer-inf">
+            <p>© Mavs Jewelry. Todos los derechos reservados. </p>
         </div>
     </footer>
 </body>

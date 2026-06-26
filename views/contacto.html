@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+        <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <header>
-        <img src="/assets/img/logo.png" alt="Logo Mavs Jewerly" width="100">
-        <div>Mavs Jewerly</div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/views/productos.html">Productos</a></li>
-                <li><a href="/views/contacto.html">Contacto</a></li>
+    <header class="navbar">
+        <a href="../index.html" class="nav-logo-link">
+            <img src="../assets/img/logo.png" alt="Logo MavsJewerly" width="100" class="nav-logo">
+        </a>
+        <h1 class="nav-titulo">Mavs Jewerly</h1>
+        <nav class="nav-container">
+            <ul class="nav-lista">
+                <li class="nav-item"><a href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a href="productos.html">Productos</a></li>
+                <li class="nav-item"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
-    <hr>
 
     <main>
         <div> <!-- Contenedor general-->
@@ -59,31 +60,31 @@
         </div>
     </main>
 
-    <hr>
-
-    <footer>
-        <div> <!-- contenedor principal para modulos del footer-->
-            <div>
-                <img src="/assets/img/logo.png" alt="Logo" width="70">
+    <footer class="footer">
+        <div class="footer-sup">
+            <div class="footer-seccion">
+                <img src="../assets/img/logo.png" alt="Logo footer" width="70" class="footer-logo">
             </div>
-            <div>
-                <h3>CONTACTO</h3>
-                <ul>
-                    <li><img src="/assets/img/whatsapp_icon.svg" alt="WhatsApp"> +56 9 8923 4239</li>
+
+            <div class="footer-seccion">
+                <h3 class="footer-titulo">CONTACTO</h3>
+                <ul class="footer-lista">
+                    <li><img src="../assets/img/whatsapp_icon.svg" alt="WhatsApp"> +56 9 8923 4239</li>
                     <li>mavenegas.s.mv@gmail.com</li>
                 </ul>
             </div>
-            <div>
-                <h3>NUESTRAS REDES</h3>
-                <ul>
-                    <li><a href="https://instagram.com/mavs_jewerly"><img src="/assets/img/instagram_icon.svg" alt="Instagram"></a></li>
-                    <li><a href="https://tiktok.com/@mavs_jewerly"><img src="/assets/img/tiktok_icon.svg" alt="Tiktok"></a></li>
-                    <li><a href="#"><img src="/assets/img/facebook_icon.svg" alt="Facebook"></a></li> <!-- Consultar al clente, no agrego direccion especifica rrss-->
+
+            <div class="footer-seccion">
+                <h3 class="footer-titulo">NUESTRAS REDES</h3>
+                <ul class="footer-lista lista-redes">
+                    <li><a href="https://instagram.com/mavs_jewerly"><img src="../assets/img/instagram_icon.svg" alt="Instagram"></a></li>
+                    <li><a href="https://tiktok.com/@mavs_jewerly"><img src="../assets/img/tiktok_icon.svg" alt="Tiktok"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61570840502174&mibextid=ZbWKwL"><img src="../assets/img/facebook_icon.svg" alt="Facebook"></a></li>
                 </ul>
             </div>
-            <div>
-                <p>© Mavs Jewelry. Todos los derechos reservados. </p>
-            </div>
+        </div>
+        <div class="footer-inf">
+            <p>© Mavs Jewelry. Todos los derechos reservados. </p>
         </div>
     </footer>
 </body>
