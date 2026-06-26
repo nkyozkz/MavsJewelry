@@ -66,47 +66,29 @@ body{
     padding: 0 20px;
 }
 
+/*card-container es un generico para crear secciones tipo card (El borde por fuera de cada seccion))*/
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
 .main-container h2{
     text-align: left;
     color: #1c1c1c;
     font-size: 2rem;
-    margin: 60px 0 20px 0;
+    margin: 0  0 25px 0;
+    padding-bottom: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
-}
-
-.seccion-texto{
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: left;
 }
 
 .seccion-texto p{
     margin-bottom: 20px;
     font-size: 1.1rem;
-}
-
-
-.lista-joyas {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 15px; 
-    list-style: none; 
-    padding: 0;
-    margin-top: 20px;
-}
-
-.lista-joyas li {
-    background-color: #1c1c1c; 
-    color: #f8f4ef;
-    padding: 12px 25px;
-    border-radius: 8px; 
-    font-size: 1rem;
-}
-
-.seccion-galeria{
-    max-width: 1200px;
-    margin: 0 auto 50px auto;
 }
 
 .galeria-home-container{
@@ -150,9 +132,33 @@ body{
     color: #1c1c1c;
 }
 
-.seccion-testimonio{
-    max-width: 1200px;
-    margin: 0 auto 60px auto;
+.lista-joyas {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    list-style: none; 
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista-joyas li {
+    background-color: #1c1c1c; 
+    color: #f8f4ef;
+    padding: 12px 25px;
+    border-radius: 8px; 
+    font-size: 1rem;
+}
+
+.btn-red {
+    width: 45px;
+    height: 45px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+}
+
+.btn-red:hover{
+    background-color: #f4aed4;
+    color: #1c1c1c;
 }
 
 .testimonio-container{
@@ -165,13 +171,14 @@ body{
 
 .testimonio-card{
     background-color: #ffffff;
-    padding: 10px 20px;
+    padding: 20px;
     border-radius: 8px;
     flex: 1 1 250px;
     max-width: 300px;
     text-align: left;
     font-style: italic;
     border: 2px solid #1c1c1c;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .testimonio-card strong{
@@ -180,7 +187,6 @@ body{
     text-align: right;
     font-style: normal;
     font-size: 0.9rem;
-    
 }
 /* Fin Main*/
 /* Comienzo footer*/
