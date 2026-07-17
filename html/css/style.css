@@ -1023,50 +1023,75 @@ si-border {
 /*
 Header style
 */
+/* Se cambió el color de fondo a #1c1c1c */
 .default-header .navbar-light.bg-white {
-  background-color: #fff !important; }
+  background-color: #1c1c1c !important; 
+}
 
 .header-top ul.list-inline {
-  margin: 0px; }
-  .header-top ul.list-inline li.list-inline-item {
-    vertical-align: middle;
-    margin-left: 10px;
-    color: rgba(0, 0, 0, 0.7); }
+  margin: 0px; 
+}
+  
+.header-top ul.list-inline li.list-inline-item {
+  vertical-align: middle;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.7); 
+}
 
 .navbar .form-inline .form-control {
   border: 0px;
   background-color: rgba(255, 255, 255, 0.3);
   font-size: 13px;
-  color: #584848; }
-.navbar{
-    background: linear-gradient(90deg,#1f1f1f,#3a2a18,#8a6d3b,#1f1f1f);
+  color: #584848; 
 }
+
+/* Se reemplazó el gradiente por el fondo #1c1c1c */
+.navbar {
+  background: #1c1c1c;
+}
+
 .navbar .btn {
   border: 0px;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
   height: 32px;
-  line-height: 32px; }
+  line-height: 32px; 
+}
 
+/* Se agregó la llave de cierre "}" faltante */
 .navbar-brand > img {
-    width: 50px;
-    height: auto;
+  width: 54px;
+  height: auto;
+}
 
+/* Nuevos estilos de fuente para los enlaces del nav */
 .navbar.navbar-light .navbar-nav .nav-link {
-  text-transform: capitalize;
-  font-weight: 700;
-  letter-spacing: 0px;
-  font-size: .86rem;
+  text-decoration: none;
+  color: #f8f4ef;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
   font-family: "Comfortaa", cursive;
-  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 0px;
   border-radius: 5px;
-  background-color: transparent; }
-  .navbar.navbar-light .navbar-nav .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-link.active:hover {
-    color: #e8b8b8; }
+  background-color: transparent; 
+}
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #e8b8b8; }
+/* Nuevo color de hover */
+.navbar.navbar-light .navbar-nav .nav-link:hover, 
+.navbar.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #e8b8b8; 
+}
 
+/* Color activo actualizado para combinar con el hover */
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.open, 
+.navbar-light .navbar-nav .open > .nav-link, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #e8b8b8; 
+}
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: .6em;
