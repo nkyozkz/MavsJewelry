@@ -14,7 +14,7 @@ El objetivo del proyecto es ofrecer una presencia web para el emprendimiento, pe
 - Catálogo de productos.
 - Diseño responsivo para dispositivos móviles y escritorio.
 - Interfaz limpia y fácil de navegar.
-- Organización de productos por secciones.
+- Organización de productos en catalogo.
 - Información de contacto del emprendimiento.
 
 ## Tecnologías utilizadas
